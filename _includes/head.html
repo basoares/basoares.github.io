@@ -35,4 +35,7 @@
     <meta name="twitter:title" content="{{ title }}" />
     <meta name="twitter:description" content="{{ desc }}" />
     <meta name="twitter:image" content="{{site.url}}{{ site.baseurl }}/{{site.favicon_location}}" />
+
+    {{ page.calendar_css | replace: "!PATH_TO_COMPONENTS!", "/components" | prepend: site.baseurl }}
+    {{ page.calendar_bootstrap_css | replace: "!PATH_TO_COMPONENTS!", "/components" | prepend: site.baseurl }}
 </head>
