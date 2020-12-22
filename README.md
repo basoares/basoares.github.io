@@ -1,2 +1,0 @@
-# basoares.github.io
-Website
