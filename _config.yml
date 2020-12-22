@@ -3,7 +3,7 @@ author: B. Soares
 subtitle: 
 
 url: "https://basoares.github.io"
-baseurl: "/index"
+baseurl: ""
 
 footer_url: "https://basoares.github.io/"
 footer_text: "&copy; 2019 B. Soares"
